@@ -4,6 +4,7 @@ Created on Sun Nov  8 19:58:54 2020
 
 @author: =GV=
 """
+# import sys
 from GCD_euclids_recursion import gcdRecur as gcd
 
 class fraction(object):
@@ -33,7 +34,7 @@ class fraction(object):
         newDenom = int(self.denominator() / gcd(self.numerator(), self.denominator()))
         return fraction(newNumer, newDenom)
 
-
+# print(sys.path)
 # test
 # oneThirds = fraction(1, 3)
 # threeFourths = fraction(15, 20)
