@@ -38,6 +38,6 @@ def randomNumlist(n):
     return [next(unique) for i in range(n + 1)]
 
 
-# # test
-# test = 50
-# print(randomNumlist(test))
+# test
+test = 50
+print(randomNumlist(test))

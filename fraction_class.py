@@ -15,9 +15,9 @@ class fraction(object):
         return f'{self.numer}/{self.denom}'
     def __repr__(self):
         return f'fraction({repr(self.numer)}, {repr(self.denom)})'
-    def numerator(self):
+    def numerator(self):    # getter
         return self.numer
-    def denominator(self):
+    def denominator(self):  # getter
         return self.denom
     def __add__(self, other):
         newDenom = self.denominator() * other.denominator()
